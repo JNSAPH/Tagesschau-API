@@ -5,9 +5,9 @@ Documentation for APH's Tagesschau API
 | Name     | Description                                                                    | URL            |
 |----------|--------------------------------------------------------------------------------|----------------|
 | news     | The latest 40 Articles published on the Tagesschau Website                     | /news          |
-| articles | Response with an Article depending on what Value you pass along with it (0-39) | /news/articles |
+| article | Response with an Article depending on what Value you pass along with it (0-39) | /news/article |
 
 ## Open Endpoints
 Open endpoints require no Authentication.
 * News : `GET /news`
-* Articles: `GET /news/articles/<INT 0-39>`
+* Article: `GET /news/article/<INT 0-39>`
